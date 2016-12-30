@@ -1,4 +1,4 @@
-## 1. SuperTypeToken
+### 1. SuperTypeToken
 
 Spring 3.2 이상에서 제공하는 ParameterizedTypeReference에 대한 소스 코딩
 
@@ -9,4 +9,7 @@ Spring 3.2 이상에서 제공하는 ParameterizedTypeReference에 대한 소스
 ```$xslt
 package kr.kangchun.type 패키지 밑에 소스 참고
 ```
+
+강의 : https://goo.gl/q4jByi
+
 
