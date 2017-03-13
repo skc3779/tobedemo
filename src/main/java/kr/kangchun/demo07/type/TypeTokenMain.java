@@ -1,4 +1,4 @@
-package kr.kangchun.type;
+package kr.kangchun.demo07.type;
 
 import lombok.extern.slf4j.Slf4j;
 

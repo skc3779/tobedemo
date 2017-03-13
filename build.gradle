@@ -45,6 +45,14 @@ dependencies {
 
 	compile 'org.projectlombok:lombok:1.16.12'
 
+	compile group: 'org.reactivestreams', name: 'reactive-streams', version: '1.0.0.final'
+	compile group: 'org.reactivestreams', name: 'reactive-streams-tck', version: '1.0.0.final'
+
+	compile "io.projectreactor:reactor-core:3.0.4.RELEASE"
+
+	//nettiy
+	compile 'io.netty:netty-all:4.1.8.Final'
+
 	testCompile "junit:junit:4.12"
 	testCompile 'org.mockito:mockito-all:1.9.5'
 	testCompile 'org.hamcrest:hamcrest-all:1.3'

@@ -1,4 +1,4 @@
-package kr.kangchun.type;
+package kr.kangchun.demo07.type;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -18,8 +18,8 @@ public class SuperTypeTokenMain {
     static class TypesafeMap {
         Map<TypeReference<?>, Object> map = new HashMap<>();
 
-        <T> void put(TypeReference<T> clazz, T value) {
-            map.put(clazz, value);
+        <T> void put(TypeReference<T> tr, T value) {
+            map.put(tr, value);
         }
 
         <T> T get(TypeReference<T> tr) {

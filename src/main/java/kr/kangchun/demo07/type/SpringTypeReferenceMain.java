@@ -1,4 +1,4 @@
-package kr.kangchun.type;
+package kr.kangchun.demo07.type;
 
 import org.springframework.core.ParameterizedTypeReference;
 

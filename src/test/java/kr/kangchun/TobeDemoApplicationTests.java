@@ -1,6 +1,6 @@
 package kr.kangchun;
 
-import kr.kangchun.TobeDemoApplication.User;
+import kr.kangchun.demo08.Demo08Application.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -24,6 +24,11 @@ public class TobeDemoApplicationTests {
 		List<User> users = rest.exchange("http://localhost:8080", HttpMethod.GET,
 				null, new ParameterizedTypeReference<List<User>>(){}).getBody();
 		users.forEach(System.out::println);
+		String a = "A";
+
+		if ("A" != a) {
+            System.out.println(a);
+		}
 	}
 
 }
